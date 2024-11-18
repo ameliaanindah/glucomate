@@ -1,0 +1,40 @@
+/* CSS untuk form */
+.login-input {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  .login-input label,
+  .login-input input {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .login-input input[type="text"],
+  .login-input input[type="email"],
+  .login-input input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+
+  .login-input button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* CSS untuk logo */
+  .logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
